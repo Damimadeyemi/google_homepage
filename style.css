@@ -1,0 +1,21 @@
+#navbar{
+    width:  100vw; /* For 100% screen width */
+
+}
+
+#logo{
+    /* margin: 0px auto 0 600px; */
+    width:800px; 
+    margin:0 auto;
+  
+}
+
+img{
+    margin: 0 auto;
+}
+
+
+#footer{
+    margin: 575px auto 0 auto;
+   
+}
