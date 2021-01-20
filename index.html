@@ -3,46 +3,63 @@
     <title>google homepage</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
-<body>
-    <div id= navbar>
+<body id ="viewport">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-                <li>
-                    <a class="navbar-brand" href="#">
-                        <img src="/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="" loading="lazy">
-                      </a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+    <div id= navigation>
 
+      <nav id="navbar-right">
+        <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link deco-none" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link deco-none" href="#work">Store</a>
+        </li>
+      </ul>
+      </nav>
+
+        <nav id="navbar-left">
+          <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link deco-none" href="#about">Gmail</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link deco-none" href="#work">Images</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link deco-none" href="#contact-links">Contact</a>
+          </li>
+
+          <li>
+
+          </li>
+            <a class="navbar-brand" href="#">
+              <img src="https://lh3.googleusercontent.com/ogw/ADGmqu9k1VMWBzKYXGesV1d4OZopaQETWbws9oOMhzO8=s32-c-mo" width="30" height="30" alt="" loading="lazy" id="nameid">
+            </a>
+        </ul>
+        </nav>
     </div>
 
+   
+
     <div id= "logo">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google_logo">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google_logo" id = "google">
 
     </div>
 
     <div id ="form">
+
+        <form action="#">
+          <i class="fa fa-search"></i> 
+           <input type="text" class="form-control" id="search" placeholder=" ">
+          <div id = "buttons">
+            <button type="button" class="btn btn-light">Google search</button>
+            <button type="button" class="btn btn-light">I'm Feeling Lucky</button>
+          </div>
+        </form>
 
     </div>
 
@@ -74,6 +91,6 @@
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
 </html>
