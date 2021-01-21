@@ -1,9 +1,11 @@
 <html>
 <head>
     <title>google homepage</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 <body id ="viewport">
@@ -21,6 +23,7 @@
       </ul>
       </nav>
 
+
         <nav id="navbar-left">
           <ul class="nav justify-content-end">
           <li class="nav-item">
@@ -30,15 +33,17 @@
             <a class="nav-link deco-none" href="#work">Images</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link deco-none" href="#contact-links">Contact</a>
+            <a class="nav-link deco-none waffle"  href="#contact-links">
+                <img src="https://2.bp.blogspot.com/-Yh4cJxF681U/V94jdCUSaSI/AAAAAAAAQMs/yqNhebQnNEUel6ZVDtbxRN_4Ia3oTVStwCLcB/s200/Google%2BWaffle%2BIcon.png" id= "waffle" alt="">
+            </a>
           </li>
 
           <li>
-
-          </li>
             <a class="navbar-brand" href="#">
               <img src="https://lh3.googleusercontent.com/ogw/ADGmqu9k1VMWBzKYXGesV1d4OZopaQETWbws9oOMhzO8=s32-c-mo" width="30" height="30" alt="" loading="lazy" id="nameid">
             </a>
+          </li>
+            
         </ul>
         </nav>
     </div>
@@ -53,8 +58,8 @@
     <div id ="form">
 
         <form action="#">
-          <i class="fa fa-search"></i> 
-           <input type="text" class="form-control" id="search" placeholder=" ">
+          <!-- <i class="fa fa-search"></i>  -->
+           <input type="text" class="form-control mainLoginInput" id="search" placeholder="&#61442;">
           <div id = "buttons">
             <button type="button" class="btn btn-light">Google search</button>
             <button type="button" class="btn btn-light">I'm Feeling Lucky</button>
@@ -65,24 +70,35 @@
 
     <section id = "footer">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
+    
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                  <a class="nav-link end" href="#">Advertising </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link end" href="#">Business </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link end" href="#">How search works</a>
                 </li>
+               
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link right-footer end" href="#">Privacy</a>
                 </li>
+
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  <a class="nav-link right-footer end" href="#">Terms</a>
                 </li>
+               
+                <li class="nav-item">
+                  <a class="nav-link right-footer" href="#">Settings</a>
+                </li>
+              
               </ul>
             </div>
           </nav>
