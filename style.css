@@ -167,10 +167,12 @@ html,body{
 
 #logo{
     position:relative;
-    top:250;
-    left: 180;
+    top:230;
+    left: 135;
     width:40%;
     height:60px;
+    margin-bottom: 0;
+    padding-bottom: 0;
   
 }
 
@@ -181,17 +183,19 @@ html,body{
 
 #search{
     border-radius: 2rem;
-    width: 100%;
+    width: 120%;
     height: 35px;
-    margin-left: 10px;
+    margin-left: 0px;
     padding: 10px; 
     text-align: center; 
+    padding-top: 0;
+    margin-top: 0;
 }
 
 #buttons{
     display:flex;
-    margin-top: 10px;
-    margin-left: 20px;
+    margin-top: 20px;
+    margin-left: -10px;
     width: 100;
     
     
